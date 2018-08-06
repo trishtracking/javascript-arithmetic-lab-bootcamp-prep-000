@@ -33,5 +33,7 @@ function makeInt(a) {
 }
 
 function preserveDecimal(a) {
-  
+  var parsedfloat = parseFloat(a, 10);
+  console.log(parsedfloat);
+  return(parsedfloat);
 }
